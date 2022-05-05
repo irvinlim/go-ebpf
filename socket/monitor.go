@@ -22,10 +22,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/Sirupsen/logrus"
 	bpf "github.com/iovisor/gobpf/elf"
 	"github.com/pkg/errors"
 	"github.com/prometheus/procfs"
+	"github.com/sirupsen/logrus"
 
 	"github.com/andrewkroh/go-ebpf/common"
 )
